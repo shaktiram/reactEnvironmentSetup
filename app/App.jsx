@@ -13,7 +13,7 @@ export default class App extends React.Component {
     return (
       <div>
         <Header/>
-        <h4>HI ff</h4>
+        <h4>Ho Folks</h4>
       </div>
     );
   }
