@@ -1,11 +1,5 @@
 import React from 'react';
 
-const styles = {
-  title: {
-    cursor: 'pointer',
-  },
-};
-
 class Header extends React.Component{
 
   /**
