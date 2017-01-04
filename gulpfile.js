@@ -15,6 +15,3 @@ gulp.task('lint', () => {
 gulp.task('default', ['lint'], () => {
     gulp.watch('./container/main.js',['lint']);
 });
-
-
-jagatheeswaran
