@@ -1,18 +1,13 @@
-{
-    "env": {
-        "browser": true,
-        "node": true
-    },
+env:
+ node: true
+ es6: true
 
-    "globals": {
-        "React": true
-    },
+parserOptions:
+ ecmaVersion: 6
+ sourceType: module
+ ecmaFeatures:
+   jsx: true
 
-    "ecmaFeatures": {
-        "jsx": true
-    },
-
-    "plugins": [
-        "react"
-    ]
-}
+rules:
+ quotes: [1, single]
+ semi: [1, always]
